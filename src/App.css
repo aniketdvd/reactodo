@@ -16,10 +16,10 @@ body{
 }
 .todo-container {
   display: block;
-  border-radius: 5pt;
-  box-shadow: 3px 3px 20px #b71c1caa;
+  border-radius: 100pt;
+  box-shadow: 3px 3px 20px #56289c88;
   text-align: center;
-  width: 70%;
+  width: 45%;
   margin: 0 auto;
 }
 .todo-container input{
@@ -33,5 +33,5 @@ body{
   border-radius: 100pt;
   border: 0;
   color: #ffffff;
-  background: red;
+  background: #d1868a;
 }

@@ -7,21 +7,7 @@ import uuid from 'uuid';
 class App extends React.Component {
   state = {
     todos: [
-      {
-        id: uuid.v4(),
-        title: '1 do something',
-        completed: false
-      },
-      {
-        id: uuid.v4(),
-        title: '2 do something',
-        completed: false
-      },
-      {
-        id: uuid.v4(),
-        title: '3 do something',
-        completed: false
-      }      
+      
     ]
   }
 
@@ -55,7 +41,6 @@ class App extends React.Component {
       <div>
         <div className="app-header">
           <h1>REACTODO.</h1>
-          <h3>Write it. Do it.</h3>
         </div>
         <div className="App">
           <AddTodo addTodo = {this.addTodo}/>
